@@ -12,6 +12,8 @@
 <header>
     <h1>Adil Muhammed N</h1>
 
+    <button id="themeBtn" style="background-color: white;"><span style=" color: #0078d4;">Toggle Theme</span></button>
+
     <nav aria-label="Main navigation">
         <ul>
             <li><a href="#about">About Me</a></li>
@@ -29,8 +31,8 @@
         <h2>About Me</h2>
         <p>
             I am a Bachelor of Computer Applications (BCA) student with a strong interest in software development and web technologies.
-            I am building a solid foundation in programming using Python, C, and C#, and applying these skills through projects and practice.
-            I also have experience in poster and advertisement design, combining technical and creative skills.
+            I am building a solid foundation in programming using Python, C, and C#, and actively applying these skills through projects.
+            Alongside programming, I have a creative background in poster and advertisement design.
         </p>
     </section>
 
@@ -38,43 +40,48 @@
 
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>
-                <h3>Web Development</h3>
-                <ul>
-                    <li>HTML5 (Semantic HTML)</li>
-                    <li>Accessibility Basics</li>
-                    <li>Forms & Navigation</li>
-                </ul>
-            </li>
 
-            <li>
-                <h3>Programming</h3>
-                <ul>
-                    <li>C (Basics)</li>
-                    <li>Python (Basics)</li>
-                    <li>Problem Solving</li>
-                </ul>
-            </li>
+        <button id="toggleSkills">Show / Hide Skills</button>
 
-            <li>
-                <h3>Tools</h3>
-                <ul>
-                    <li>GitHub</li>
-                    <li>VS Code</li>
-                    <li>Coursera</li>
-                </ul>
-            </li>
+        <div id="skillsList">
+            <ul>
+                <li>
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML5 (Semantic HTML)</li>
+                        <li>Accessibility Basics</li>
+                        <li>Forms & Navigation</li>
+                    </ul>
+                </li>
 
-            <li>
-                <h3>Design</h3>
-                <ul>
-                    <li>Poster Design</li>
-                    <li>UI Sense</li>
-                    <li>Mobile-first Thinking</li>
-                </ul>
-            </li>
-        </ul>
+                <li>
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>C (Basics)</li>
+                        <li>Python (Basics)</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Coursera</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Design</h3>
+                    <ul>
+                        <li>Poster Design</li>
+                        <li>UI Sense</li>
+                        <li>Mobile-first Thinking</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <hr>
@@ -83,21 +90,22 @@
         <h2>Education</h2>
         <p>
             Bachelor of Computer Applications (BCA).  
-            Building practical skills in web development, programming, and software design through academics and projects.
+            Actively building skills in web development, programming, and software design.
         </p>
     </section>
 
     <hr>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>HTML:</strong> Portfolio Website, Static Websites</li>
-            <li><strong>Python:</strong> Grade Calculator, Guessing Game</li>
-            <li><strong>C:</strong> Calculator, Prime Number Checker</li>
-            <li><strong>C#:</strong> Console Calculator, Student Management System</li>
-            <li><strong>Design:</strong> Posters & Social Media Creatives</li>
-        </ul>
+        <li><h2>Projects</h2>
+            <ul>
+                <li><strong>HTML:</strong> Portfolio Website, Static Websites</li>
+                <li><strong>Python:</strong> Grade Calculator, Guessing Game</li>
+                <li><strong>C:</strong> Calculator, Prime Number Checker</li>
+                <li><strong>C#:</strong> Console Calculator, Student Management System</li>
+                <li><strong>Design:</strong> Posters & Social Media Creatives</li>
+            </ul>
+        </li>
     </section>
 
     <hr>
@@ -105,16 +113,8 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:adilmuhammeda8@gmail.com">adilmuhammeda8@gmail.com</a></p>
-        <p>LinkedIn: 
-            <a href="https://www.linkedin.com/in/adil-muhammed-n-520b2835b/" target="_blank" rel="noopener">
-                LinkedIn Profile
-            </a>
-        </p>
-        <p>GitHub: 
-            <a href="https://github.com/adilmuhdn-oss" target="_blank" rel="noopener">
-                GitHub Profile
-            </a>
-        </p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/adil-muhammed-n-520b2835b/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/adilmuhdn-oss" target="_blank" rel="noopener">GitHub Profile</a></p>
 
         <button id="contactBtn">Click to Connect</button>
         <p id="contactMessage" aria-live="polite"></p>
