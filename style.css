@@ -49,11 +49,7 @@ h2 {
     color: #0078d4;
 }
 
-ul ul {
-    margin-left: 20px;
-}
-
-/* Button */
+/* Buttons */
 button {
     padding: 10px 15px;
     background-color: #0078d4;
@@ -61,6 +57,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px 0;
 }
 
 button:hover {
@@ -73,6 +70,21 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+/* Dark Theme */
+.dark {
+    background-color: #111;
+    color: #fff;
+}
+
+.dark header,
+.dark footer {
+    background-color: #000;
+}
+
+.dark h2 {
+    color: #4da3ff;
 }
 
 /* Responsive */
